@@ -6,7 +6,7 @@ import requests
 from .resources import *
 
 
-class Billomapy(object):
+class Billomapy:
     """
     Billomapy is a full featured python api for Billomat (http://billomat.com)
 
@@ -25,7 +25,7 @@ class Billomapy(object):
         self.app_id = app_id
         self.app_secret = app_secret
 
-        self.api_url = "https://{}.billomat.net/api/".format(billomat_id)
+        self.api_url = f'https://{billomat_id}.billomat.net/api/'
         self.session = requests.session()
         self.session.headers.update(
             {
@@ -229,7 +229,6 @@ class Billomapy(object):
         :return: None
         """
         response.raise_for_status()
-        pass
 
     """
     --------

@@ -2,12 +2,12 @@ from setuptools import setup
 
 setup(
     name='billomapy',
-    version='2.5.1',
-    install_requires=['requests==2.7.0', 'tornado==4.2'],
+    version='2.6',
+    install_requires=['requests>=2.20.0'],
     packages=['billomapy'],
-    url='https://github.com/bykof/billomapy',
+    url='https://github.com/seibert-media/billomapy',
     license='Apache License 2.0',
-    author='Michael Bykovski',
-    author_email='mbykovski@seibert-media.net',
+    author='Michael Bykovski, Jean Petry',
+    author_email='jpetry@seibert-media.net',
     description='A Python library for http://www.billomat.com/'
 )

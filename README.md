@@ -7,7 +7,7 @@ A full featured Python library for http://www.billomat.com/
 
 If you have problems or don't understand something you can email me:
 
-mbykovski@seibert-media.net
+jpetry@seibert-media.net
 
 
 API Doc
@@ -26,3 +26,9 @@ Install:
 PyPi: https://pypi.python.org/pypi/billomapy/
 
     pip install billomapy
+
+Local:
+
+    ```
+    pip install -r requirements.txt
+    ```
