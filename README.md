@@ -20,12 +20,8 @@ Install:
 
 To install billomapy in your project use:
 
-    ```
-    pip install git+https://github.com/seibert-media/billomapy
-    ```
+    pip install git+https://github.com/seibert-media/billomapy  
 
 For local development in this repo use:
 
-    ```
     pip install -r requirements.txt
-    ```
