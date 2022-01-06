@@ -1,5 +1,3 @@
-[![Documentation Status](https://readthedocs.org/projects/billomapy/badge/?version=latest)](http://billomapy.readthedocs.org/en/latest/?badge=latest) [![PyPI version](https://badge.fury.io/py/billomapy.svg)](https://badge.fury.io/py/billomapy)
-billomapy
 ===================
 
 A full featured Python library for http://www.billomat.com/
@@ -13,8 +11,6 @@ jpetry@seibert-media.net
 API Doc
 -------
 
-Read the Docs: http://billomapy.readthedocs.org/en/latest/?badge=latest
-
 
 All inputs and output from and to the api have to be like in the api docs from billomat (http://www.billomat.com/en/api)
 So please have a look in the API docs if you have a question. Otherwise email me.
@@ -23,11 +19,13 @@ So please have a look in the API docs if you have a question. Otherwise email me
 Install:
 -------
 
-PyPi: https://pypi.python.org/pypi/billomapy/
+To install billomapy in your project use:
 
-    pip install billomapy
+    ```
+    pip install git+https://github.com/seibert-media/billomapy
+    ```
 
-Local:
+For local development in this repo use:
 
     ```
     pip install -r requirements.txt
