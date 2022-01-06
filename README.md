@@ -1,5 +1,3 @@
-===================
-
 A full featured Python library for http://www.billomat.com/
 ----------
 
@@ -20,7 +18,14 @@ Install:
 
 To install billomapy in your project use:
 
-    pip install git+https://github.com/seibert-media/billomapy  
+    pip install git+https://github.com/seibert-media/billomapy
+
+or add:
+
+    git+https://github.com/seibert-media/billomapy
+
+to your requirements.txt file.
+
 
 For local development in this repo use:
 
